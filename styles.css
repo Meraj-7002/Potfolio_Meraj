@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    justify-content: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 0.1rem solid;
+    border-color: #f7a306;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tab-button:hover {
+    background-color: #f73e06;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .tab-content h2 {
+    margin-top: 0;
+  }
+  
+  .tab-content.show {
+    display: block;
+  }
+.LinkedIn{
+    color: #ffffff;
+}
+.resume{
+    color: #ffffff;
+}
